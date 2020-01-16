@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="343ff264-0551-4479-b0a5-4899f64cf403" name="Default Changelist" comment="CrudRepository refator1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/Menu.java" afterDir="false" />
+    <list default="true" id="343ff264-0551-4479-b0a5-4899f64cf403" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +114,9 @@
     <MESSAGE value="initial commit1" />
     <MESSAGE value="CrudRepository refator" />
     <MESSAGE value="CrudRepository refator1" />
-    <option name="LAST_COMMIT_MESSAGE" value="CrudRepository refator1" />
+    <MESSAGE value="dehghani repository added" />
+    <MESSAGE value="ayobi entiti added" />
+    <option name="LAST_COMMIT_MESSAGE" value="ayobi entiti added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#Project_Structure" timestamp="1579168694967">
@@ -126,10 +127,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1579172493509" />
-    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1579171858219">
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1579177672407">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579171858219" />
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579177672407" />
+    <state x="129" y="61" key="DiffContextDialog" timestamp="1579179612815">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="61" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1579179612815" />
     <state x="540" y="258" width="392" height="211" key="Github.ShareDialog" timestamp="1579169265042">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -138,10 +143,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="440" y="70" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1579169296377" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1579171325459">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1579179626636">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579171325459" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579179626636" />
+    <state x="363" y="156" key="git4idea.merge.GitPullDialog" timestamp="1579179576591">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="156" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1579179576591" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1579171828614">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
