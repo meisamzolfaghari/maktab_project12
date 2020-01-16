@@ -1,4 +1,4 @@
-package ir.maktab.project12.instagram.userinterface;
+package ir.maktab.project12.instagram.userinterface.menus;
 
 import ir.maktab.project12.instagram.core.share.Commands;
 import ir.maktab.project12.instagram.entities.exceptions.InvalidCommandException;
