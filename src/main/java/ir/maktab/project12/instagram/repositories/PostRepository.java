@@ -4,12 +4,12 @@ import ir.maktab.project12.instagram.entities.Post;
 
 public class PostRepository extends CrudRepository<Post,Long> {
 
-    PostRepository postRepository;
+    private static PostRepository postRepository;
 
     private PostRepository() {
     }
 
-    public PostRepository getPostRepository() {
+    public static PostRepository getPostRepository() {
         if(postRepository==null){
             postRepository = new PostRepository();
         }
