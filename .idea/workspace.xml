@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="343ff264-0551-4479-b0a5-4899f64cf403" name="Default Changelist" comment="CrudRepository refator1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/functions/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/Menu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/StartingMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/StartingMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/Menu.java" afterDir="false" />
+    <list default="true" id="343ff264-0551-4479-b0a5-4899f64cf403" name="Default Changelist" comment="ayobi entiti added1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +17,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IgnoredFileRootStore">
@@ -56,7 +47,6 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -69,15 +59,15 @@
       <recent name="ir.maktab.project12.instagram.repositories" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -92,7 +82,6 @@
       <option name="presentableId" value="Default" />
       <updated>1579168600783</updated>
       <workItem from="1579168606133" duration="3862000" />
-      <workItem from="1579172843093" duration="782000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit1">
       <created>1579170231691</created>
@@ -115,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579171322102</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ayobi entiti added1">
+      <created>1579179663085</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579179663085</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,28 +121,47 @@
     <MESSAGE value="initial commit1" />
     <MESSAGE value="CrudRepository refator" />
     <MESSAGE value="CrudRepository refator1" />
-    <option name="LAST_COMMIT_MESSAGE" value="CrudRepository refator1" />
+    <MESSAGE value="dehghani repository added" />
+    <MESSAGE value="ayobi entiti added" />
+    <MESSAGE value="ayobi entiti added1" />
+    <option name="LAST_COMMIT_MESSAGE" value="ayobi entiti added1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="23" key="#Project_Structure" />
-    <state x="275" y="23" key="#Project_Structure/0.0.1366.728@0.0.1366.728" />
-    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser" />
-    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" />
-    <state x="609" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" />
-    <state x="609" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" />
-    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" />
-    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" />
-    <state x="297" y="0" key="CommitChangelistDialog2" />
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" />
-    <state x="540" y="258" width="392" height="211" key="Github.ShareDialog" />
-    <state x="540" y="258" width="392" height="211" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" />
-    <state x="440" y="70" key="Github.UntrackedFilesDialog" />
-    <state x="440" y="70" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" />
-    <state x="249" y="0" key="SettingsEditor" />
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" />
-    <state x="339" y="162" key="run.anything.popup" />
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" />
+    <state x="275" y="23" key="#Project_Structure" timestamp="1579168694967">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="23" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1579168694967" />
+    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579172493509">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1579172493509" />
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1579179931327">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579179931327" />
+    <state x="129" y="61" key="DiffContextDialog" timestamp="1579179778033">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="61" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1579179778033" />
+    <state x="540" y="258" width="392" height="211" key="Github.ShareDialog" timestamp="1579169265042">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="540" y="258" width="392" height="211" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1579169265042" />
+    <state x="440" y="70" key="Github.UntrackedFilesDialog" timestamp="1579169296377">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="440" y="70" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1579169296377" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1579179679786">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579179679786" />
+    <state x="363" y="156" key="git4idea.merge.GitPullDialog" timestamp="1579179717450">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="156" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1579179717450" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1579171828614">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1579171828614" />
   </component>
 </project>
