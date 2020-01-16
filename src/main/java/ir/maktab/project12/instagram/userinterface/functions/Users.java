@@ -4,6 +4,7 @@ package ir.maktab.project12.instagram.userinterface.functions;
 import ir.maktab.project12.instagram.core.share.AuthenticationService;
 import ir.maktab.project12.instagram.entities.User;
 import ir.maktab.project12.instagram.entities.exceptions.InvalidCommandException;
+import ir.maktab.project12.instagram.entities.exceptions.UserNotFoundException;
 import ir.maktab.project12.instagram.repositories.UserRepository;
 
 import java.util.List;
@@ -26,12 +27,12 @@ public class Users {
         }
     }
 
-    public static void SignIn(String username, String password) {
+    public static void SignIn(String username, String password) throws UserNotFoundException {
         UserRepository repository = UserRepository.getUserRepository();
         List<User> users = repository.findAll();
 
         if(users.isEmpty())
-            return;
+            throw new UserNotFoundException("User isn't in database!");
         for(User user: users)
             if(user.getUsername().equals(username) && user.getPassword().equals(password))
                 AuthenticationService.getInstance().setLoginUser(user);

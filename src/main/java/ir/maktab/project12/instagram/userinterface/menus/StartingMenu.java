@@ -2,6 +2,7 @@ package ir.maktab.project12.instagram.userinterface.menus;
 
 import ir.maktab.project12.instagram.core.share.Commands;
 import ir.maktab.project12.instagram.entities.exceptions.InvalidCommandException;
+import ir.maktab.project12.instagram.entities.exceptions.UserNotFoundException;
 import ir.maktab.project12.instagram.userinterface.functions.Users;
 
 import java.util.ArrayList;
@@ -13,7 +14,7 @@ public class StartingMenu extends Menu {
     }
 
     @Override
-    public void execute() throws InvalidCommandException {
+    public void execute() throws InvalidCommandException, UserNotFoundException {
         while (true) {
             command = Users.getCommand(actions);
             if (command.equalsIgnoreCase(Commands.Exit.name()))
