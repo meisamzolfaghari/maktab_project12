@@ -1,7 +1,11 @@
 package ir.maktab.project12.instagram.userinterface.functions;
 
 
+import ir.maktab.project12.instagram.core.share.AuthenticationService;
+import ir.maktab.project12.instagram.entities.User;
 import ir.maktab.project12.instagram.entities.exceptions.InvalidCommandException;
+import ir.maktab.project12.instagram.repositories.UserRepository;
+
 import java.util.List;
 import java.util.Scanner;
 
@@ -23,11 +27,20 @@ public class Users {
     }
 
     public static void SignIn(String username, String password) {
+        UserRepository repository = UserRepository.getUserRepository();
+        List<User> users = repository.findAll();
 
+        if(users.isEmpty())
+            return;
+        for(User user: users)
+            if(user.getUsername().equals(username) && user.getPassword().equals(password))
+                AuthenticationService.getInstance().setLoginUser(user);
     }
 
     public static void SignUp(String firstName, String lastName, String username, String password, String email) {
-
+        User user = new User(username, password, email, firstName, lastName);
+        UserRepository repository = UserRepository.getUserRepository();
+        repository.save(user);
     }
 
     public static String getUsername() {
