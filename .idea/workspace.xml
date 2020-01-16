@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="343ff264-0551-4479-b0a5-4899f64cf403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/maktab_project12.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="343ff264-0551-4479-b0a5-4899f64cf403" name="Default Changelist" comment="User and post class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/entities/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/entities/Post.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/entities/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579171322102</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="User and post class">
+      <created>1579173749703</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579173749703</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,7 +127,8 @@
     <MESSAGE value="initial commit1" />
     <MESSAGE value="CrudRepository refator" />
     <MESSAGE value="CrudRepository refator1" />
-    <option name="LAST_COMMIT_MESSAGE" value="CrudRepository refator1" />
+    <MESSAGE value="User and post class" />
+    <option name="LAST_COMMIT_MESSAGE" value="User and post class" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#Project_Structure" />

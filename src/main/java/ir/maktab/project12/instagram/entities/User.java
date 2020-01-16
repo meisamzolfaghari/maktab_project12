@@ -27,20 +27,20 @@ public class User {
     @Column(name = "lastName",nullable = false,length = 100)
     private String lastName;
 
-    @OneToMany(mappedBy = "user",fetch = FetchType.LAZY,cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "user",fetch = FetchType.EAGER,cascade = CascadeType.ALL)
     private List<Post> posts = new ArrayList<>();
 
-    @ManyToMany
+    @OneToMany
     @JoinTable(
-            name = "follow",
+            name = "followers",
             joinColumns = { @JoinColumn(name = "follower_id") },
             inverseJoinColumns = { @JoinColumn(name = "uid") }
     )
     private List<User> followers = new ArrayList<>();
 
-    @ManyToMany
+    @OneToMany
     @JoinTable(
-            name = "follow",
+            name = "following",
             joinColumns = { @JoinColumn(name = "following_id") },
             inverseJoinColumns = { @JoinColumn(name = "uid") }
     )
