@@ -3,18 +3,18 @@ package ir.maktab.project12.instagram.repositories;
 import ir.maktab.project12.instagram.core.config.hibernate.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.query.Query;
-
 import java.io.Serializable;
 import java.util.List;
 
-public abstract class CrudRepository<Entity, ID extends Serializable> {
 
+public abstract class CrudRepository<Entity, ID extends Serializable> {
     protected abstract Class<Entity> getEntityClass();
 
     public ID save(Entity entity) {
         getSession().beginTransaction();
         ID id = (ID) getSession().save(entity);
         getSession().getTransaction().commit();
+
         return id;
     }
 
@@ -57,12 +57,12 @@ public abstract class CrudRepository<Entity, ID extends Serializable> {
 
     public List<Entity> findAll(int start, int row) {
         getSession().beginTransaction();
-        Query<Entity> query = getSession()
-                .createQuery("from " + getEntityClass().getName(), getEntityClass());
+        Query<Entity> query = getSession().createQuery("from " + getEntityClass().getName(), getEntityClass());
         query.setFirstResult(start);
         query.setMaxResults(row);
         List<Entity> entities = query.list();
         getSession().getTransaction().commit();
+
         return entities;
     }
 
