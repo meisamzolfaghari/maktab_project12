@@ -131,14 +131,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1579168694967" />
+    <state x="531" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579180076563">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="531" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1579180076563" />
     <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579172493509">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1579172493509" />
-    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1579179931327">
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1579179980381">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579179931327" />
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579179980381" />
     <state x="129" y="61" key="DiffContextDialog" timestamp="1579179778033">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -151,14 +155,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="440" y="70" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1579169296377" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1579179679786">
+    <state x="129" y="61" key="MergeDialog" timestamp="1579180066150">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579179679786" />
-    <state x="363" y="156" key="git4idea.merge.GitPullDialog" timestamp="1579179717450">
+    <state x="129" y="61" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1579180066150" />
+    <state x="395" y="81" key="MultipleFileMergeDialog" timestamp="1579180066159">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="363" y="156" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1579179717450" />
+    <state x="395" y="81" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1579180066159" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1579179986037">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579179986037" />
+    <state x="363" y="156" key="git4idea.merge.GitPullDialog" timestamp="1579180016188">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="156" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1579180016188" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1579171828614">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
