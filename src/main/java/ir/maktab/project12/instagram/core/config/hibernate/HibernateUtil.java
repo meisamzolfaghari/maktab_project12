@@ -13,7 +13,7 @@ public class HibernateUtil {
 
     static {
         sessionFactory = new Configuration()
-                .configure("hibernate.cfg.xml")
+                .configure("hibernate.db.cfg.xml")
                 .addAnnotatedClass(Post.class)
                 .addAnnotatedClass(User.class)
                 .buildSessionFactory();
