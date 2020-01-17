@@ -24,6 +24,7 @@ public abstract class CrudRepository<Entity, ID extends Serializable> {
         getSession().getTransaction().commit();
     }
 
+
     public void remove(Entity entity) {
         getSession().beginTransaction();
         getSession().remove(entity);
