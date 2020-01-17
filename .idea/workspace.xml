@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="343ff264-0551-4479-b0a5-4899f64cf403" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Instagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="343ff264-0551-4479-b0a5-4899f64cf403" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +45,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="meizolf" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IgnoredFileRootStore">
@@ -104,6 +103,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Instagram" />
         <item itemvalue="Application.Instagram" />
       </list>
     </recent_temporary>
@@ -193,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579181120740</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Instagram main app made">
+      <created>1579182300623</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1579182300623</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +217,8 @@
     <MESSAGE value="molla starting menu added" />
     <MESSAGE value="HibernateUtil config update" />
     <MESSAGE value="post repo update" />
-    <option name="LAST_COMMIT_MESSAGE" value="post repo update" />
+    <MESSAGE value="Instagram main app made" />
+    <option name="LAST_COMMIT_MESSAGE" value="Instagram main app made" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#Project_Structure" timestamp="1579168694967">
@@ -221,18 +229,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1579181839951" />
-    <state x="531" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579180076563">
+    <state x="531" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579182369294">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="531" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1579180076563" />
+    <state x="531" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1579182369294" />
     <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579172493509">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1579172493509" />
-    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1579181119692">
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1579182299264">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579181119692" />
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579182299264" />
     <state x="129" y="61" key="DiffContextDialog" timestamp="1579179778033">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -245,22 +253,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="440" y="70" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1579169296377" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1579182179030">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1579182386221">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579182179030" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1579182179029">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579182386221" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1579182386220">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579182179029" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1579182179028">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579182386220" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1579182386220">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579182179028" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1579182179030">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579182386220" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1579182386221">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579182179030" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579182386221" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1579181879570">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -269,22 +277,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="129" y="61" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1579180066150" />
-    <state x="395" y="81" key="MultipleFileMergeDialog" timestamp="1579181072380">
+    <state x="395" y="81" key="MultipleFileMergeDialog" timestamp="1579182357875">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="395" y="81" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1579181072380" />
+    <state x="395" y="81" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1579182357875" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1579181684444">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579181684444" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1579181125079">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1579182377561">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579181125079" />
-    <state x="363" y="156" key="git4idea.merge.GitPullDialog" timestamp="1579181065505">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579182377561" />
+    <state x="363" y="156" key="git4idea.merge.GitPullDialog" timestamp="1579182350975">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="363" y="156" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1579181065505" />
+    <state x="363" y="156" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1579182350975" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1579181676841">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
