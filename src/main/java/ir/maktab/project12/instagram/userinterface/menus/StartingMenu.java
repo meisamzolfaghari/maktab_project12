@@ -12,7 +12,7 @@ public class StartingMenu extends Menu {
     }
 
     @Override
-    public void execute(){
+    public void execute() {
         while (true) {
 
             displayMenu();
@@ -22,8 +22,7 @@ public class StartingMenu extends Menu {
                 exit();
             else if (command.equalsIgnoreCase(Commands.signin.name())) {
                 Users.SignIn(Users.getUsername(), Users.getPassword());
-            }
-            else if (command.equalsIgnoreCase(Commands.signup.name()))
+            } else if (command.equalsIgnoreCase(Commands.signup.name()))
                 Users.SignUp(Users.getFirstName(), Users.getLastName(), Users.getUsername(), Users.getPassword(), Users.getEmail());
         }
     }

@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="343ff264-0551-4479-b0a5-4899f64cf403" name="Default Changelist" comment="Initialized to develop&#10;menu added....">
-      <change afterPath="$PROJECT_DIR$/src/main/Menu_Model.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/functions/Posts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/EditPostMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/EditProfileMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/FinalMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/FollowersMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/FollowingMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/OtherProfileMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/PostMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/ProfileMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/SearchMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/UserMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/UserPostMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/maktab_project12.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/maktab_project12.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Instagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/core/share/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/core/share/Commands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/functions/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/functions/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/Menu.java" afterDir="false" />
+    <list default="true" id="343ff264-0551-4479-b0a5-4899f64cf403" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/StartingMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/StartingMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -165,7 +144,7 @@
       <workItem from="1579168606133" duration="3862000" />
       <workItem from="1579243715254" duration="319000" />
       <workItem from="1579274450765" duration="846000" />
-      <workItem from="1579505974366" duration="11765000" />
+      <workItem from="1579505974366" duration="12025000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit1">
       <created>1579170231691</created>
@@ -237,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579243804508</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Initialized to develop&#10;menu added....">
+      <created>1579522070871</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1579522070871</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,10 +267,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1579172493509" />
-    <state x="216" y="0" key="CommitChangelistDialog2" timestamp="1579521422731">
+    <state x="216" y="0" key="CommitChangelistDialog2" timestamp="1579522097086">
       <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state x="216" y="0" key="CommitChangelistDialog2/0.0.1024.728@0.0.1024.728" timestamp="1579521422731" />
+    <state x="216" y="0" key="CommitChangelistDialog2/0.0.1024.728@0.0.1024.728" timestamp="1579522097086" />
     <state x="297" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579243802636" />
     <state x="129" y="61" key="DiffContextDialog" timestamp="1579179778033">
       <screen x="0" y="0" width="1366" height="728" />

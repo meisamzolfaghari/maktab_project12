@@ -1,8 +1,6 @@
 package ir.maktab.project12.instagram.userinterface.menus;
 
 import ir.maktab.project12.instagram.entities.Post;
-import ir.maktab.project12.instagram.entities.exceptions.InvalidCommandException;
-import ir.maktab.project12.instagram.entities.exceptions.UserNotFoundException;
 
 public class EditPostMenu extends Menu {
     private Post ChosenPost;
