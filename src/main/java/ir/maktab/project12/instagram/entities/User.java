@@ -1,10 +1,8 @@
 package ir.maktab.project12.instagram.entities;
 
-import com.sun.istack.Nullable;
-
 import javax.persistence.*;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 public class User {
@@ -28,7 +26,7 @@ public class User {
     private String lastName;
 
     @OneToMany(mappedBy = "user",fetch = FetchType.EAGER,cascade = CascadeType.ALL)
-    private List<Post> posts = new ArrayList<>();
+    private Set<Post> posts = new HashSet<>();
 
     @OneToMany
     @JoinTable(
@@ -36,7 +34,7 @@ public class User {
             joinColumns = { @JoinColumn(name = "follower_id") },
             inverseJoinColumns = { @JoinColumn(name = "uid") }
     )
-    private List<User> followers = new ArrayList<>();
+    private Set<User> followers = new HashSet<>();
 
     @OneToMany
     @JoinTable(
@@ -44,7 +42,7 @@ public class User {
             joinColumns = { @JoinColumn(name = "following_id") },
             inverseJoinColumns = { @JoinColumn(name = "uid") }
     )
-    private List<User> following = new ArrayList<>();
+    private Set<User> following = new HashSet<>();
 
     public User(String username, String password, String email, String firstName, String lastName) {
         this.username = username;
@@ -105,27 +103,27 @@ public class User {
         this.lastName = lastName;
     }
 
-    public List<Post> getPosts() {
+    public Set<Post> getPosts() {
         return posts;
     }
 
-    public void setPosts(List<Post> posts) {
+    public void setPosts(Set<Post> posts) {
         this.posts = posts;
     }
 
-    public List<User> getFollowers() {
+    public Set<User> getFollowers() {
         return followers;
     }
 
-    public void setFollowers(List<User> followers) {
+    public void setFollowers(Set<User> followers) {
         this.followers = followers;
     }
 
-    public List<User> getFollowing() {
+    public Set<User> getFollowing() {
         return following;
     }
 
-    public void setFollowing(List<User> following) {
+    public void setFollowing(Set<User> following) {
         this.following = following;
     }
 

@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="343ff264-0551-4479-b0a5-4899f64cf403" name="Default Changelist" comment="" />
+    <list default="true" id="343ff264-0551-4479-b0a5-4899f64cf403" name="Default Changelist" comment="Initialized to develop&#10;menu added....">
+      <change afterPath="$PROJECT_DIR$/src/main/Menu_Model.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/functions/Posts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/EditPostMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/EditProfileMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/FinalMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/FollowersMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/FollowingMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/OtherProfileMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/PostMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/ProfileMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/SearchMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/UserMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/UserPostMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/maktab_project12.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/maktab_project12.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/core/share/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/core/share/Commands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/functions/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/functions/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/StartingMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab/project12/instagram/userinterface/menus/StartingMenu.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +74,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -81,16 +105,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\meisam\IdeaProjects\maktab_project12\src\main" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ir.maktab.project12.instagram.userinterface.menus" />
       <recent name="ir.maktab.project12.instagram.core.config.hibernate" />
       <recent name="ir.maktab.project12.instagram.repositories" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\meisam\IdeaProjects\maktab_project12\src\main" />
+      <recent name="C:\Users\meisam\IdeaProjects\maktab_project12\src\main\java\ir\maktab\project12\instagram\userinterface" />
     </key>
   </component>
   <component name="RunManager">
@@ -113,12 +145,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -136,6 +163,9 @@
       <option name="presentableId" value="Default" />
       <updated>1579168600783</updated>
       <workItem from="1579168606133" duration="3862000" />
+      <workItem from="1579243715254" duration="319000" />
+      <workItem from="1579274450765" duration="846000" />
+      <workItem from="1579505974366" duration="11765000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit1">
       <created>1579170231691</created>
@@ -200,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579182300623</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="admin push test">
+      <created>1579243804508</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1579243804508</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +255,9 @@
     <MESSAGE value="HibernateUtil config update" />
     <MESSAGE value="post repo update" />
     <MESSAGE value="Instagram main app made" />
-    <option name="LAST_COMMIT_MESSAGE" value="Instagram main app made" />
+    <MESSAGE value="admin push test" />
+    <MESSAGE value="Initialized to develop&#10;menu added...." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialized to develop&#10;menu added...." />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#Project_Structure" timestamp="1579168694967">
@@ -229,22 +268,32 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1579181839951" />
-    <state x="531" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579182369294">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="317" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1579520432699">
+      <screen x="0" y="0" width="1024" height="728" />
     </state>
+    <state x="317" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1024.728@0.0.1024.728" timestamp="1579520432699" />
+    <state x="398" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579506457390">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="398" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1024.728@0.0.1024.728" timestamp="1579506457390" />
     <state x="531" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1579182369294" />
     <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579172493509">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1579172493509" />
-    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1579182299264">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="216" y="0" key="CommitChangelistDialog2" timestamp="1579521422731">
+      <screen x="0" y="0" width="1024" height="728" />
     </state>
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579182299264" />
+    <state x="216" y="0" key="CommitChangelistDialog2/0.0.1024.728@0.0.1024.728" timestamp="1579521422731" />
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579243802636" />
     <state x="129" y="61" key="DiffContextDialog" timestamp="1579179778033">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="129" y="61" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1579179778033" />
+    <state x="292" y="118" key="FileChooserDialogImpl" timestamp="1579510641803">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="292" y="118" key="FileChooserDialogImpl/0.0.1024.728@0.0.1024.728" timestamp="1579510641803" />
     <state x="540" y="258" width="392" height="211" key="Github.ShareDialog" timestamp="1579169265042">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -281,14 +330,15 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="395" y="81" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1579182357875" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1579181684444">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="26" y="0" key="SettingsEditor" timestamp="1579507189435">
+      <screen x="0" y="0" width="1024" height="728" />
     </state>
+    <state x="26" y="0" key="SettingsEditor/0.0.1024.728@0.0.1024.728" timestamp="1579507189435" />
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579181684444" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1579182377561">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1579243812822">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579182377561" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579243812822" />
     <state x="363" y="156" key="git4idea.merge.GitPullDialog" timestamp="1579182350975">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

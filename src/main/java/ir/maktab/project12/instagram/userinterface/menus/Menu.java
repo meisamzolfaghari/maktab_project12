@@ -17,7 +17,7 @@ public abstract class Menu {
         loginUser = AuthenticationService.getInstance().getLoginUser();
     }
 
-    public abstract void execute() throws InvalidCommandException, UserNotFoundException;
+    public abstract void execute();
 
     protected abstract void displayMenu();
 
