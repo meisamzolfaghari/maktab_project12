@@ -3,8 +3,6 @@ package ir.maktab.project12.instagram.userinterface.functions;
 
 import ir.maktab.project12.instagram.core.share.AuthenticationService;
 import ir.maktab.project12.instagram.entities.User;
-import ir.maktab.project12.instagram.entities.exceptions.InvalidCommandException;
-import ir.maktab.project12.instagram.entities.exceptions.UserNotFoundException;
 import ir.maktab.project12.instagram.repositories.UserRepository;
 
 import java.util.List;
