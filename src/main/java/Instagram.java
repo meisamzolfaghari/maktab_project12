@@ -1,8 +1,9 @@
-import ir.maktab.project12.instagram.userinterface.menus.StartingMenu;
+import ir.maktab.project12.instagram.core.config.DatabaseInit;
+import ir.maktab.project12.instagram.userinterface.menus.FirstMenu;
 
 public class Instagram {
-
     public static void main(String[] args) {
-        new StartingMenu().execute();
+        DatabaseInit.userInit();
+        new FirstMenu().execute();
     }
 }

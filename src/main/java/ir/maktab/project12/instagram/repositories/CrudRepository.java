@@ -8,65 +8,54 @@ import java.util.List;
 
 
 public abstract class CrudRepository<Entity, ID extends Serializable> {
+
     protected abstract Class<Entity> getEntityClass();
 
-    public ID save(Entity entity) {
-        getSession().beginTransaction();
-        ID id = (ID) getSession().save(entity);
-        getSession().getTransaction().commit();
+    private final Session session;
 
-        return id;
+    public CrudRepository(Session session) {
+        this.session = session;
+    }
+
+    public void save(Entity entity) {
+        session.save(entity);
     }
 
     public void update(Entity entity) {
-        getSession().beginTransaction();
-        getSession().update(entity);
-        getSession().getTransaction().commit();
+        session.update(entity);
     }
 
     public void remove(Entity entity) {
-        getSession().beginTransaction();
-        getSession().remove(entity);
-        getSession().getTransaction().commit();
+        session.remove(entity);
     }
 
     public void removeById(ID id) {
         Entity entity = findById(id);
         if (entity != null) {
-            getSession().beginTransaction();
-            getSession().remove(entity);
-            getSession().getTransaction().commit();
+            session.remove(entity);
         }
     }
 
     public Entity findById(ID id) {
-        getSession().beginTransaction();
-        Entity entity = getSession().get(getEntityClass(), id);
-        getSession().getTransaction().commit();
+        Entity entity = session.get(getEntityClass(), id);
         return entity;
     }
 
     public List<Entity> findAll() {
-        getSession().beginTransaction();
-        Query<Entity> query = getSession()
+        Query<Entity> query = session
                 .createQuery("from " + getEntityClass().getName(), getEntityClass());
         List<Entity> entities = query.list();
-        getSession().getTransaction().commit();
+
         return entities;
     }
 
     public List<Entity> findAll(int start, int row) {
-        getSession().beginTransaction();
-        Query<Entity> query = getSession().createQuery("from " + getEntityClass().getName(), getEntityClass());
+        Query<Entity> query = session.createQuery("from " + getEntityClass().getName(), getEntityClass());
         query.setFirstResult(start);
         query.setMaxResults(row);
         List<Entity> entities = query.list();
-        getSession().getTransaction().commit();
 
         return entities;
     }
 
-    private Session getSession() {
-        return HibernateUtil.getSession();
-    }
 }

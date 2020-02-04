@@ -13,11 +13,11 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-public class EditPostMenu extends Menu {
+public class UserChoosePostMenu extends Menu {
 
     private Post chosenPost;
 
-    public EditPostMenu(Post chosenPost) {
+    public UserChoosePostMenu(Post chosenPost) {
         this.chosenPost = chosenPost;
     }
 
@@ -27,18 +27,20 @@ public class EditPostMenu extends Menu {
             return;
         String command = "";
         while (!command.equals(Commands.back.name())) {
+            User loginUser = AuthenticationService.getInstance().getLoginUser();
             Posts.displayFullVersion(chosenPost);
 
             command = Functions.getCommand(availableCommands());
             if (command.equals(Commands.exit.name())) {
                 exit();
-            } else if (command.equals(Commands.title.name())) {
-                Posts.editTitle(Posts.getNewTitle(), chosenPost);
-            } else if (command.equals(Commands.content.name())) {
-                Posts.editContent(Posts.getNewContent(), chosenPost);
-            } else if (command.equals(Commands.delete.name())) {
-                Posts.delete(chosenPost);
-                break;
+            } else if (command.equals(Commands.edit.name())) {
+                new EditPostMenu(chosenPost).execute();
+            } else if (command.equals(Commands.like.name())) {
+                Posts.like(loginUser, chosenPost);
+            } else if (command.equals(Commands.unlike.name())) {
+                Posts.unLike(loginUser, chosenPost);
+            } else if (command.equals(Commands.addcomment.name())) {
+                Comments.add(Comments.getContent(), Comments.getCreationDate(), chosenPost, loginUser);
             } else if (command.equals(Commands.signout.name())) {
                 Users.signOut();
                 new FirstMenu().execute();
@@ -48,12 +50,18 @@ public class EditPostMenu extends Menu {
 
     @Override
     protected Set<String> availableCommands() {
-        return new HashSet<>(Arrays.asList(
-                Commands.title.name()
-                , Commands.content.name()
-                , Commands.delete.name()
+        Set<String> commands = new HashSet<>(Arrays.asList(
+                Commands.edit.name()
+                , Commands.addcomment.name()
                 , Commands.back.name()
                 , Commands.signout.name()
                 , Commands.exit.name()));
+        User loginUser = AuthenticationService.getInstance().getLoginUser();
+        if (chosenPost.getUsersLikedPost().contains(loginUser))
+            commands.add(Commands.unlike.name());
+        else
+            commands.add(Commands.like.name());
+
+        return commands;
     }
 }

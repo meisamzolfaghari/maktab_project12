@@ -1,7 +1,7 @@
 package ir.maktab.project12.instagram.core.share;
 
 
-import ir.maktab.project12.instagram.entities.User;
+import ir.maktab.project12.instagram.model.User;
 
 public class AuthenticationService {
     private User loginUser;

@@ -10,7 +10,7 @@ public enum Commands {
     add,
     delete,
     like,
-    unLike,
+    unlike,
     followers,
     followings,
     follow,

@@ -1,27 +1,16 @@
 package ir.maktab.project12.instagram.userinterface.menus;
 
-import ir.maktab.project12.instagram.core.share.AuthenticationService;
-import ir.maktab.project12.instagram.entities.User;
-
-import java.util.List;
-
+import java.util.Set;
 
 public abstract class Menu {
-    protected User loginUser;
-    protected String command;
-    protected List<String> actions;
-
-    public Menu() {
-        loginUser = AuthenticationService.getInstance().getLoginUser();
-    }
 
     public abstract void execute();
 
-    protected abstract void displayMenu();
-
-    protected abstract void setActions();
+    protected abstract Set<String> availableCommands();
 
     protected void exit() {
-        System.out.println("Exit from system");
+        System.out.println("\n bye bye!");
+        System.exit(0);
     }
+
 }
